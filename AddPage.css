@@ -1,0 +1,121 @@
+.header {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid goldenrod;
+    margin: -8px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px gray;
+    padding-left: 15px;
+}
+
+.ad {
+    font: normal bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0px;
+    color: rgb(133, 20, 20);
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.add-page {
+    background-color: rgb(185, 211, 211);
+    margin-top: 26px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 15px;
+    padding-bottom: 25px;
+}
+
+.main-content {
+    display: flex;
+    background-color:burlywood;
+}
+
+.details-text {
+    padding: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(133, 20, 20);
+}
+
+.cancel-button {
+    padding-left: 500px;
+    padding-top: 30px;
+}
+
+.row-content {
+    display: flex;
+    flex-direction: row;
+    margin: 6px 126px 44px;
+    align-items: center;
+}
+
+.input {
+    width: 95%;
+    padding: 5px;
+    border-radius: 4px;
+    resize: vertical;
+    font-weight: bold;
+
+}
+
+input {
+    padding: 12px;
+}
+
+.select {
+    width: 32%;
+    padding: 12px;
+    border-radius: 4px;
+    resize: vertical;
+    font-weight: bold;
+}
+
+#name {
+    margin-top: 33px;
+}
+
+.buttonParent {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button {
+    font-size: 20px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    min-width: 140px;
+    padding: 7px 7px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.submitButton {
+    border: none;
+    background-color: lightgreen;
+    margin-left: 320px;
+}
+
+.resetButton {
+    border: none;
+    background-color: lightseagreen;
+    ;
+    margin-left: 30px;
+}
